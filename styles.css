@@ -1,10 +1,40 @@
+:root {
+    --green: #008000;
+    --red: #E00000;
+    --bg: #000040;
+}
+
 body {
     margin: 8px;
     display: block;
+    background-color: var(--bg);
+    color: #B0B040;
 }
+header {
+    position: relative;
+    left:25%;
+    width: 50%;
+    border: 2px solid var(--green);
+}
+main {
+    margin: auto;
+    width: 60%;
+}
+footer {
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    text-decoration: none;
+}
+
 .funParagraph {
-    color:#080;
+    color: var(--green);
 }
 #mainHeading {
-    color:#F00;
+    text-align: center;
+    color: var(--red);
 }
