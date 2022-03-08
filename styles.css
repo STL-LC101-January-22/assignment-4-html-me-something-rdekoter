@@ -23,6 +23,19 @@ main {
 footer {
     text-align: center;
 }
+
+p {
+    clear: none;
+}
+h3 {
+    clear: none;
+}
+img {
+    max-width: 15vw;
+    object-fit: contain;
+    float: left;
+    margin-right: 2vw;
+}
 nav {
     display: flex;
     justify-content: space-evenly;
