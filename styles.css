@@ -24,10 +24,21 @@ footer {
     text-align: center;
 }
 
+div {
+    margin-bottom: 2vw;
+}
+div::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 p {
+    font-size: 1.1em;
     clear: none;
 }
 h3 {
+    text-align: center;
     clear: none;
 }
 img {
@@ -35,6 +46,11 @@ img {
     object-fit: contain;
     float: left;
     margin-right: 2vw;
+}
+div:nth-of-type(2) img {
+    float: right;
+    margin-right: 0;
+    margin-left: 2vw;
 }
 nav {
     display: flex;
